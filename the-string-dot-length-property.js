@@ -26,28 +26,36 @@ let lengthThree; // Length of stringThree
 
 // Your code here
 
-// Basic string length
-let message = "Hello, World!";
-let messageLength = message.length;
-console.log(messageLength); // Output: 13
+// Snippet with Array Lengths
+// Predefined arrays
+let arrayOne = [1, 2, 3, 4];
+let arrayTwo = ["a", "b"];
+let arrayThree = [];
 
-// Using length with user input
-let userInput = prompt("Enter your name:");
-let inputLength = userInput.length;
-alert("Your name has " + inputLength + " characters.");
+// Assign the length of each array to the corresponding variable
+let lengthOne = arrayOne.length;     // 4
+let lengthTwo = arrayTwo.length;     // 2
+let lengthThree = arrayThree.length; // 0
 
-// Checking if a string is empty
-let str = "";
-if (str.length === 0) {
-  console.log("The string is empty.");
-}
+// Simulating user input
+let name = "Alice";
+let city = "New York";
+let comment = "";
 
-// Comparing lengths of multiple strings
-let a = "short";
-let b = "much longer string";
-if (a.length < b.length) {
-  console.log("String 'a' is shorter than string 'b'.");
-}
+// Assign lengths
+let nameLength = name.length;         // 5
+let cityLength = city.length;         // 8
+let commentLength = comment.length;   // 0
 
+// Snippet for Form Fields (Web Page Example)
+// Form input values (e.g. from HTML form)
+let email = "user@example.com";
+let password = "secret123";
+let notes = "";
+
+// Assign string lengths
+let emailLength = email.length;       // 16
+let passwordLength = password.length; // 9
+let notesLength = notes.length;       // 0
 
 
