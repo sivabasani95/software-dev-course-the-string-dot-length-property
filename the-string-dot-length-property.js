@@ -26,5 +26,28 @@ let lengthThree; // Length of stringThree
 
 // Your code here
 
+// Basic string length
+let message = "Hello, World!";
+let messageLength = message.length;
+console.log(messageLength); // Output: 13
+
+// Using length with user input
+let userInput = prompt("Enter your name:");
+let inputLength = userInput.length;
+alert("Your name has " + inputLength + " characters.");
+
+// Checking if a string is empty
+let str = "";
+if (str.length === 0) {
+  console.log("The string is empty.");
+}
+
+// Comparing lengths of multiple strings
+let a = "short";
+let b = "much longer string";
+if (a.length < b.length) {
+  console.log("String 'a' is shorter than string 'b'.");
+}
+
 
 
